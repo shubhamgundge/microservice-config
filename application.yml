@@ -1,3 +1,13 @@
-spring:
-  application:
-    name: CONFIGSERVER
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:5000/eureka
+
+
+
+
+      
